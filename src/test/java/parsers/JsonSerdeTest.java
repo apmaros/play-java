@@ -15,7 +15,7 @@ public class JsonSerdeTest {
         Person person = serde.deserialize(json, Person.class);
         assertEquals("John", person.getFirstname());
         assertEquals("Doe", person.getLastname());
-        assertEquals(36, person.getAge());
+        assertEquals(35, person.getAge());
     }
 
     @Test
